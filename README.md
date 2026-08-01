@@ -39,6 +39,10 @@ Three activities cover the full user flow:
 
 **Design patterns:** Observer (direction and route-order notifications), MVVM (exhibit list), DAO (Room persistence)
 
+<!-- TODO(Alex): ownership paragraph goes here — which components were mine.
+     Left blank deliberately; this was a team project and attribution
+     should not be guessed at. -->
+
 ## Zoo data
 
 The zoo map is encoded in three bundled JSON assets:
