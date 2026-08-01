@@ -15,6 +15,10 @@ Built as a team project in CSE 110 (Software Engineering) at UC San Diego.
 - **Route plan summary** — full itinerary with distances displayed before navigation starts
 - **Manual location injection** — enter mock GPS coordinates to test routing behavior without physical movement
 
+## Testing
+
+Unit tests cover direction generation, route planning, node lookup, and database operations. Instrumented tests cover UI flows including search, exhibit selection, route planning, GPS permission denial, off-track prompting, skip/previous behavior, and route persistence across app restarts.
+
 ## Architecture
 
 Three activities cover the full user flow:
@@ -56,7 +60,3 @@ The zoo map is encoded in three bundled JSON assets:
 | JSON parsing | Gson |
 | Distance calculation | Vincenty geodesic formula |
 | Testing | JUnit unit tests + Espresso instrumented tests; CI via GitHub Actions (runs on every push) |
-
-## Testing
-
-Unit tests cover direction generation, route planning, node lookup, and database operations. Instrumented tests cover UI flows including search, exhibit selection, route planning, GPS permission denial, off-track prompting, skip/previous behavior, and route persistence across app restarts.
