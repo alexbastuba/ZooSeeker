@@ -63,4 +63,4 @@ The zoo map is encoded in three bundled JSON assets:
 | Database | Room (SQLite) |
 | JSON parsing | Gson |
 | Distance calculation | Vincenty geodesic formula |
-| Testing | JUnit unit tests + Espresso instrumented tests; CI via GitHub Actions (runs on every push) |
+| Testing | JUnit unit tests + Espresso instrumented tests; GitHub Actions workflow defined (see `.github/workflows/`) |
