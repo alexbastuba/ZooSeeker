@@ -87,3 +87,9 @@ lint/tmp/
 # lint/reports/
 /.idea/.name
 /.idea/deploymentTargetDropDown.xml
+
+# macOS
+.DS_Store
+
+# IDE — ignore the whole directory, superseding the granular rules above
+.idea/
