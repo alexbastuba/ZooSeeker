@@ -39,9 +39,7 @@ Three activities cover the full user flow:
 
 **Design patterns:** Observer (direction and route-order notifications), MVVM (exhibit list), DAO (Room persistence)
 
-<!-- TODO(Alex): ownership paragraph goes here — which components were mine.
-     Left blank deliberately; this was a team project and attribution
-     should not be guessed at. -->
+**My contributions.** This was a team project. I set up the GitHub Actions CI workflow and wrote the app's Espresso instrumented tests, covering search autocomplete, category filtering, and the route plan summary screen. I built the route plan summary activity and its layout, and contributed to the graph data layer that parses the JSON assets into the JGraphT weighted graph. The Dijkstra routing in `DirectionTracker` and the GPS off-track detection in `GPSTracker` were built by teammates.
 
 ## Zoo data
 
